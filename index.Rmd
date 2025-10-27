@@ -6,6 +6,7 @@ output:
     toc_float: true
     theme: cerulean
 ---
+### ↓↓↓ This is my favorite VTuber Maria Marionette ^^ ↓↓↓
+
 ![](https://i.ytimg.com/vi/h-Msoyo7IQ4/maxresdefault.jpg)
 
-[about](about.html)

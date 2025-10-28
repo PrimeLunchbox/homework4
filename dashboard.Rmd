@@ -1,0 +1,59 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(dplyr)
+library(p8105.datasets)
+
+data("instacart") 
+insta_ez_to_read = instacart %>% 
+  select(aisle, everything())
+
+total_aisle_df = insta_ez_to_read %>% 
+  group_by(aisle) %>% 
+  summarise(total_orders = n(), aisle = first(aisle)) %>%
+  arrange(desc(total_orders))
+
+plot_df = total_aisle_df %>% 
+  filter(total_orders > 10000)
+
+library(plotly)
+plot_df %>% 
+  plot_ly(y = ~aisle, x = ~total_orders, type = "bar", mode = "markers", marker = list(color = '#DAADEA'))
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+insta_ez_to_read %>% 
+  plot_ly(x = ~order_hour_of_day, type = "histogram", mode = "markers", marker = list(color = '#FFB6C1'))
+```
+
+### Chart C
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+cc_df = insta_ez_to_read %>% 
+  head(200)
+
+cc_df %>%
+  plot_ly(x = ~department_id, y = ~product_id, color = ~aisle,  
+          type = "scatter", mode = "markers")
+```

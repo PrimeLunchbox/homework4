@@ -5,6 +5,7 @@ output:
     orientation: columns
     vertical_layout: fill
     code_folding: hide
+    css: css/theme.css
 ---
 
 ```{r setup, include=FALSE}
@@ -18,9 +19,7 @@ Column {data-width=650}
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(dplyr)
-library(p8105.datasets)
-
-data("instacart") 
+load("./data/instacart.rda")
 insta_ez_to_read = instacart %>% 
   select(aisle, everything())
 
@@ -34,7 +33,7 @@ plot_df = total_aisle_df %>%
 
 library(plotly)
 plot_df %>% 
-  plot_ly(y = ~aisle, x = ~total_orders, type = "bar", mode = "markers", marker = list(color = '#DAADEA'))
+  plot_ly(y = ~aisle, x = ~total_orders, type = "bar", mode = "markers", marker = list(color = '#795E4B'))
 ```
 
 Column {data-width=350}
@@ -44,7 +43,7 @@ Column {data-width=350}
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 insta_ez_to_read %>% 
-  plot_ly(x = ~order_hour_of_day, type = "histogram", mode = "markers", marker = list(color = '#FFB6C1'))
+  plot_ly(x = ~order_hour_of_day, type = "histogram", mode = "markers", marker = list(color = '#AF8B73'))
 ```
 
 ### Chart C

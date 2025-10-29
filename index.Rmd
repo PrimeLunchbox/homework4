@@ -4,9 +4,14 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+    css: css/theme.css
+    body_class: "homepage"
 ---
 ### ↓↓↓ WELCOME TO MY WEBSITE ^^ ↓↓↓
+
+<div align="center">
+![](./images/20151008205725_rtCYn.gif)
+</div>
 
 ```{css, echo=FALSE}
 body {

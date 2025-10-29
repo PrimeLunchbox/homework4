@@ -12,22 +12,22 @@ Email: yl6109@cumc.columbia.edu<br>
 
 ## Education Background
 
-China Agricultural University (Sep 2021 - Jul 2025) <br>
+**China Agricultural University** (Sep 2021 - Jul 2025) <br>
 Bachelor of Engineering in Food Science and Engineering
 
-Cornell University (Sep 2021 - Jul 2025) <br>
+**Cornell University** (Sep 2021 - Jul 2025) <br>
 Bachelor of Science in Food Science
 
 ## Research Experience
 
-### Effect of Storage Conditions on Bacteria in Yogurt (May 2024)<br>
+### **Effect of Storage Conditions on Bacteria in Yogurt** (May 2024)<br>
 -Designed the experiment to compare bacterial growth under different storage conditions.<br>
 -Prepared culture media and sterilized equipment and conducted series dilution (10^-1 to 10^-7) and then inoculation using spread plate methods. <br>
 -Performed bacterial staining using Gram stain techniques and observed bacteria under an oil-immersed microscope.<br>
--Identified bacteria using Gram staining, observing Gram-positive rods (with spores), Gram-positive cocci, and bacteria consistent with Lactobacillus delbrueckii.<br>
+-Identified bacteria using Gram staining, observing Gram-positive rods (with spores), Gram-positive cocci, and bacteria consistent with *Lactobacillus delbrueckii*.<br>
 -Gained practical skills in experimental design, microbiological techniques, and data analysis.
 
-### Investigating the Effects of Collagen Peptides on Oxidative Damage in Osteoblasts and Chondrocytes (Sep 2022 - Jul 2023)<br>
+### **Investigating the Effects of Collagen Peptides on Oxidative Damage in Osteoblasts and Chondrocytes** (Sep 2022 - Jul 2023)<br>
 -Conducted comprehensive literature searches and reviews related to research about bone cells and collagen peptides.<br>
 -Participated in cell culture processes for osteoblasts and articular chondrocytes. including medium changes, enzymatic digestion, centrifugation, and subculturing to maintain cell growth and viability<br>
 -Implemented controlled variable experiments involving collagen peptide concentration, experimental subjects (osteoblasts and chondrocytes), types of collagen peptides, and cell culture duration.<br>

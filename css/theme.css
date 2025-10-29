@@ -1,0 +1,155 @@
+:root {
+  --primary-color: #83634D; 
+  --secondary-color: #95745D; 
+  --accent-color: #BCAFA7; 
+  --success-color: #F4CDB7; 
+  
+
+  --background-color: #f8fafc; 
+  --surface-color: #ffffff; 
+  --card-bg: rgba(222, 190, 171, .6);
+  
+
+  --text-primary: #543722; 
+  --text-secondary: #543722; 
+  --text-on-primary: #E8D0C0; 
+  
+
+  --navbar-bg: #AE886E; 
+  --navbar-text: #E8D0C0;
+  --navbar-hover: #543722;
+  
+
+  --border-color: #D0BAAA;
+  --shadow-color: rgba(179, 153, 135, 0.1);
+  --link-color: #D9AD90;
+  --link-hover: #BB9378;
+}
+
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-primary);
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  background: var(--navbar-bg) !important;
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+
+
+.navbar .navbar-nav .nav-link {
+  color: var(--navbar-text) !important;
+  transition: color 0.3s ease;
+}
+
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+  color: var(--navbar-hover) !important;
+  background-color: transparent !important;
+}
+
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .show > .nav-link {
+  color: var(--navbar-hover) !important;
+  background-color: rgba(131, 99, 77, 0.1) !important;
+}
+
+
+.navbar .navbar-brand {
+  color: var(--navbar-text) !important;
+  transition: color 0.3s ease;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: var(--navbar-hover) !important;
+}
+
+
+.navbar .navbar-toggler {
+  border-color: var(--navbar-text);
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/20000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23E8D0C0' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.content-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px var(--shadow-color);
+  padding: 2rem;
+  margin: 1.5rem 0;
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus,
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  color: var(--navbar-hover) !important;
+  background-color: transparent !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: var(--navbar-hover) !important;
+}
+
+
+h1, h2, h3 {
+  color: var(--text-primary);
+  border-bottom: 3px solid var(--secondary-color);
+  padding-bottom: 0.5rem;
+}
+
+a {
+  color: var(--link-color);
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+
+.navbar .navbar-nav .dropdown-menu a:hover,
+.navbar .navbar-nav .dropdown-menu a:focus,
+.navbar-inverse .dropdown-menu > li > a:hover,
+.navbar-inverse .dropdown-menu > li > a:focus,
+.navbar-default .dropdown-menu > li > a:hover,
+.navbar-default .dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: var(--navbar-hover) !important;
+  background-color: rgba(84, 55, 34, 0.1) !important; 
+}
+
+
+.navbar .dropdown-menu {
+  background-color: var(--navbar-bg) !important;
+  border: 1px solid var(--border-color) !important;
+  box-shadow: 0 4px 12px var(--shadow-color) !important;
+}
+
+
+.navbar .dropdown-menu a,
+.navbar .navbar-nav .dropdown-menu a,
+.navbar-inverse .dropdown-menu > li > a,
+.navbar-default .dropdown-menu > li > a {
+  color: var(--navbar-text) !important;
+  transition: all 0.3s ease;
+}

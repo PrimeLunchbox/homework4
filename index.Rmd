@@ -7,11 +7,15 @@ output:
     css: css/theme.css
     body_class: "homepage"
 ---
-### ↓↓↓ WELCOME TO MY WEBSITE ^^ ↓↓↓
+### **↓↓↓ WELCOME TO MY WEBSITE ^^ ↓↓↓**
 
 <div align="center">
 ![](./images/20151008205725_rtCYn.gif)
 </div>
+
+**I am Yurou and am currently majoring in biostatistics at Mailman School of Public Health, Columbia University. Thsi website is made for the course P8105 Data Science, which I am taking this semester. Some simple practices are done through creating this webpage.**
+
+**My academic experience and some plots generated from the "instacart" dataset are shown in this website, and the buttons on navigation bar can lead you to the YouTube artist page of Maria Marionette (which is my favorite Vtuber), to my email address and to my github homepage, respectively.**
 
 ```{css, echo=FALSE}
 body {

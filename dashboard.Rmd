@@ -6,6 +6,7 @@ output:
     vertical_layout: fill
     code_folding: hide
     css: css/theme.css
+    source: embed
 ---
 
 ```{r setup, include=FALSE}
